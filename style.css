@@ -53,6 +53,16 @@ h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
 /**
+* table
+*/
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+/**
  * Paragraphs
  */
 p {
@@ -127,12 +137,6 @@ ul.main-menu li a:hover {
 ul.main-menu li a.active {
   color:#FFFFFF;
   border-bottom-color:#EF6D3D;
-}
-
-/* table borders */
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
 }
 
 /* Utility classes */
