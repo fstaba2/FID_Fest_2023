@@ -129,6 +129,12 @@ ul.main-menu li a.active {
   border-bottom-color:#EF6D3D;
 }
 
+/* table borders */
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
 /* Utility classes */
 .hide {
   display:none;
