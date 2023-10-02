@@ -110,6 +110,10 @@ body {
   max-width:1500px;
   margin:25px auto;
 }
+.small-body{
+  width:500px;
+  margin:25px auto;
+}
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:25px;
